@@ -28,7 +28,7 @@ To run this project locally, follow these steps:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/Movie-Recommendation-System.git
+   git clone [https://github.com/your-username/Movie-Recommendation-System.git](https://github.com/s-pratham/MovieRecommendationUsingPython.git)
    cd Movie-Recommendation-System
    ```
 
