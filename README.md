@@ -37,10 +37,10 @@ To run this project locally, follow these steps:
 ## Results
 
 - **Top Rated Movies:** 
-  - Visualizations of top-rated movies based on weighted rating.
+  - Graph of top-rated movies based on weighted rating.
 
 - **Popular Movies:**
-  - Visualizations of most popular movies based on popularity score.
+  - Graph of most popular movies based on popularity score.
 
 - **Content-Based Recommendations:**
   - Recommendations for specific movies based on movie overviews.
