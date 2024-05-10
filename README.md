@@ -19,7 +19,7 @@ This repository contains a movie recommendation system developed using Python an
   - `Movie_Recommendation_System.ipynb`: Jupyter notebook containing the complete project code with detailed explanations and visualizations.
 
 - **Data Files:**
-  - `anime.csv`: Dataset containing anime information.
+  - `anime.csv`: Dataset containing anime and movies information used only for performing EDA.
   - `tmdb_5000_movies.csv` and `tmdb_5000_credits.csv`: Datasets containing movie information used for content-based filtering.
 
 ## Getting Started
