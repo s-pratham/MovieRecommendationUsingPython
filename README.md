@@ -10,7 +10,7 @@ This repository contains a movie recommendation system developed using Python an
   - Implementing a basic demographic filtering method to recommend movies based on popularity and average ratings.
   
 - **Content-Based Filtering:**
-  - Building a content-based recommendation system using NLP techniques to recommend movies based on movie descriptions (overviews).
+  - Building a content-based recommendation system to recommend movies based on movie descriptions (overviews).
   - Utilizing TF-IDF vectorization and cosine similarity to compute movie similarities.
 
 ## Project Structure
