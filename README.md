@@ -47,8 +47,8 @@ To run this project locally, follow these steps:
 
 ## Acknowledgments
 
-- Datasets sourced from: [Kaggle](https://www.kaggle.com/)
+- Datasets sourced from: [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata/data)
 
 ---
 
-This version assumes that users will have the necessary Python environment with pandas, numpy, seaborn, and matplotlib installed already. Feel free to customize further or add any additional information based on your project needs!
+This version assumes that users will have the necessary Python environment with pandas, numpy, sklearn, seaborn, and matplotlib installed already.
