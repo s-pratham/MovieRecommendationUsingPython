@@ -1,54 +1,33 @@
-# Movie Recommendation System Using Python
+## Movie Recommendation System (Website)
+Movie Recommendation System created using Collaborative Filtering (Website) and Content based Filtering (Jupyter Notebook).
 
-This repository contains a movie recommendation system developed using Python and machine learning techniques. The project involves:
+### Objectives
 
-- **Data Preparation and Exploratory Data Analysis (EDA):**
-  - Utilizing pandas, numpy, seaborn, and matplotlib for data loading, cleaning, visualization, and analysis.
-  - Handling missing values and basic statistical analysis.
+  1. To create a movie recommendation system using Collaborative Filtering and machine learning algorithms such as K Nearest Neighbours. 
+  2. The system should recommend movies based on the movie title entered by the user. 
+  3. The system should also be able to recommend movies on the basis of 'genre only' and 'genre and year' entered. 
+  4. The system should apply sentiment analysis to categorize user comments on a particular movie.
+  5. Additional Content Based Filtering is performed (can be seen [here](Recommovie_9604_Notebook.ipynb)) using Neural Network to perform Matrix Factorization.
 
-- **Demographic Filtering:**
-  - Implementing a basic demographic filtering method to recommend movies based on popularity and average ratings.
-  
-- **Content-Based Filtering:**
-  - Building a content-based recommendation system to recommend movies based on movie descriptions (overviews).
-  - Utilizing TF-IDF vectorization and cosine similarity to compute movie similarities.
+### Dataset can be accessed from [here](https://grouplens.org/datasets/movielens/). 
+  For redcuing the deployment time, data exploration followed by feature selection is done on the complete dataset.
 
-## Project Structure
+### Installation
+  1. In the shell/cmd, cd to the directory where requirements.txt is located.
+  2. activate your virtualenv. (if any)
+  3. run:   ``` pip install -r requirements.txt ```
 
-- **Notebooks:**
-  - `Movie_Recommendation_System.ipynb`: Jupyter notebook containing the complete project code with detailed explanations and visualizations.
+### Flow Diagram
+<div align='center'>
+<img src = 'flow-diagram.JPG' height="400px">
+</div>
 
-- **Data Files:**
-  - `anime.csv`: Dataset containing anime and movies information used only for performing EDA.
-  - `tmdb_5000_movies.csv` and `tmdb_5000_credits.csv`: Datasets containing movie information used for content-based filtering.
 
-## Getting Started
+### Deployment
+  - The application deployed can be accessed and tested directly from [here](https://recomovie-9604.herokuapp.com/) or https://recomovie-9604.herokuapp.com/
+  - Currently the links are working perfectly and can be checked through.
 
-To run this project locally, follow these steps:
+### References
+  - https://github.com/kishan0725/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/s-pratham/MovieRecommendationUsingPython.git
-   cd Movie-Recommendation-System
-   ```
-
-2. Open and run the `Movie_Recommendation_System.ipynb` notebook in Jupyter or any preferred environment.
-
-## Results
-
-- **Top Rated Movies:** 
-  - Graph of top-rated movies based on weighted rating.
-
-- **Popular Movies:**
-  - Graph of most popular movies based on popularity score.
-
-- **Content-Based Recommendations:**
-  - Recommendations for specific movies based on movie overviews.
-
-## Acknowledgments
-
-- Datasets sourced from: [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata/data)
-
----
-
-This version assumes that users will have the necessary Python environment with pandas, numpy, sklearn, seaborn, and matplotlib installed already.
+NOTE* - This project is implemented with additional features and changes done to the reference link mentioned above.
