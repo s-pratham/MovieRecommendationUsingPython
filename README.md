@@ -3,11 +3,10 @@ Movie Recommendation System created using Collaborative Filtering (Website) and 
 
 ### Objectives
 
-  1. To create a movie recommendation system using Collaborative Filtering and machine learning algorithms such as K Nearest Neighbours. 
+  1. To create a movie recommendation system using Content Filtering and machine learning algorithms such as Cosine Similarity. 
   2. The system should recommend movies based on the movie title entered by the user. 
   3. The system should also be able to recommend movies on the basis of 'genre only' and 'genre and year' entered. 
-  4. The system should apply sentiment analysis to categorize user comments on a particular movie.
-  5. Additional Content Based Filtering is performed (can be seen [here](Recommovie_9604_Notebook.ipynb)).
+  4. Content Based Filtering is performed (can be seen [here](Recommovie_9604_Notebook.ipynb)).
 
 ### Dataset can be accessed from [here](https://grouplens.org/datasets/movielens/). 
   For redcuing the deployment time, data exploration followed by feature selection is done on the complete dataset.
